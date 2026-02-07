@@ -135,7 +135,7 @@ print(result)  # Output: Short summary of the cat story.
 
 **In PoC**: Chains policy retrieval, moderation, and logging.
 
-### 8. Input/Output Binding (context.Variables["key"])
+### 8. Input/Output Bindings (context.Variables["key"])
 **What It Is**: **Input/Output Binding** passes data between steps using a dictionary (`context.Variables`), like passing notes.
 
 **Example**: Passing a search query to a search plugin, then its results to a summary plugin.
